@@ -53,5 +53,4 @@ document.getElementById("numero-1").addEventListener("input", () => {
 });
 document.getElementById("numero-2").addEventListener("input", () => {
     document.querySelector('.error-message').classList.remove("show");
-
 });
