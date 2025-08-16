@@ -23,7 +23,6 @@ form.addEventListener("submit", function(e) {
     const containerMensagemSucesso = document.querySelector('.success-message');
     const containerMensagemErro = document.querySelector('.error-message');
 
-    // limpa mensagens anteriores
     containerMensagemSucesso.classList.remove("show");
     containerMensagemErro.classList.remove("show");
     primeiroNumero.classList.remove("error");
